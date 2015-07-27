@@ -4,7 +4,7 @@ fbRoot = document.createElement('div');
 fbRoot.id = 'fb-root';
 document.body.appendChild(fbRoot);
 
-// Load the SDK asynchronously
+// load the SDK asynchronously.
 ( function(d) {
 		var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
 		if (d.getElementById(id)) {

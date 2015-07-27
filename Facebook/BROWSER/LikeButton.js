@@ -82,7 +82,7 @@ Facebook.LikeButton = CLASS({
 			height = 86;
 		}
 
-		self.setSrc('https://www.facebook.com/plugins/like.php?href=' + encodeURIComponent(href) + '&width=' + width + '&height=' + height + '&colorscheme=' + colorscheme + '&layout=' + layout + '&action=' + action + '&show_faces=' + isShowFaces + '&share=' + isShowShareButton + '&appId=' + CONFIG.Facebook.appId);
+		self.setSrc('https://www.facebook.com/plugins/like.php?href=' + encodeURIComponent(href) + '&width=' + width + '&height=' + height + '&colorscheme=' + colorscheme + '&layout=' + layout + '&action=' + action + '&show_faces=' + isShowFaces + '&share=' + isShowShareButton + (CONFIG.Facebook === undefined || CONFIG.Facebook.appId === undefined ? '' : '&appId=' + CONFIG.Facebook.appId));
 
 		self.addStyle({
 			width : width,
