@@ -1,3 +1,5 @@
+* ***이 프로젝트는 [USOCIAL](https://github.com/Hanul/USOCIAL)로 통합되었습니다.***
+
 Facebook BOX
 ============
 This is Facebook BOX for UPPERCASE(http://UPPERCASE.IO).
